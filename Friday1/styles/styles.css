@@ -1,0 +1,9 @@
+*{
+    /* background-color: blueviolet; */
+}
+@media screen and(min-width:80rem) {
+    .container{
+        margin:1rem 2rem;
+    }
+    
+}
