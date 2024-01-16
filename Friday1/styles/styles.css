@@ -1,7 +1,106 @@
+:root {
+    --color: #5A295B;
+    --padding: 15px;
+}
 
-@media screen and(min-width:80rem) {
-    .container{
-        margin:1rem 2rem;
-    }
-    
+h1.new1 {
+    border: 10px solid #5A295B;
+    /* border-color: #5A295B; */
+    width: 4;
+
+
+}
+
+h2.app-name {
+    color: var(--color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 25;
+}
+
+div.calculator {
+    border: #5A295B solid 5px;
+    border-radius: 20px;
+    padding: 25px;
+    width: 378px;
+    height: 596px;
+    flex-shrink: 0;
+}
+
+/*  */
+
+.buttons {
+    width: 100%;
+    padding: var(--padding);
+}
+.element,.element1,.element2,.element3,.element4,.element5 {
+    color: aliceblue;
+    background-color: #9E14A0;
+    border: #9E14A0 solid 2px;
+
+}
+
+button.element2 {
+   
+    width: 150px;
+    height: 65px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+button.res {
+    border: #5A295B solid 2px;
+    background-color: #5A295B;
+    color: aliceblue;
+    width: 150px;
+    height: 65px;
+    border-radius: 10px;
+
+}
+
+input.output {
+    padding: var(--padding);
+    margin-bottom: 10px;
+    border: solid #5A295B 3px;
+    background-color: rgba(217, 217, 217, 0.31);
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowbuttom {
+    width: 150px;
+    height: 65px;
+    font-size: 2px;
+}
+
+button {
+    width: 10%;
+    padding: 2px;
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-right: 3px;
+}
+
+.num1,
+.num2,
+.num3,
+.num4,
+.num5,
+.num6,
+.num7,
+.num8,
+.num9,
+.num0,
+.dot,
+.element5 {
+    background-color: #F0D8F0;
+    border: #F0D8F0 solid 3px;
+    color: #9E14A0;
+    font-weight: bold;
+    border-radius: 5px;
 }

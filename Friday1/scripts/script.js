@@ -1,9 +1,11 @@
 let userInput = '';
+let problem = '';
 //function is called when a number or decimal point is clicked, after 
 //appending it updates the result by setting it to the result input fiels
 const appendValue =(value)=>{
     userInput += value;
     document.getElementById('result').value= userInput;
+    document.getElementById("problem").textContent = problem;
 };
 //this appends the operator when the operator button id clicked
 const appendOperator = (operator)=>{
@@ -23,13 +25,9 @@ const calculate =()=>{
         userInput ='';
     }
 }
-// this called when clear button is clicked, clears the expression screen adn sets
+// this called when reset button is clicked, clears the expression screen adn sets
 // it to an empty string
 const clearResult=()=>{
     userInput='';
     document.getElementById('result').value = '';
-}
-const clearScreen=()=>{
-    userInput = '';
-    document.getElementById('result').value='';
 }
