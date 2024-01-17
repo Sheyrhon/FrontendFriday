@@ -1,69 +1,112 @@
 :root {
     --color: #5A295B;
-    --padding: 15px;
-}
-
-h1.new1 {
-    border: 10px solid #5A295B;
-    /* border-color: #5A295B; */
-    width: 4;
+    --padding: 3px;
 
 
 }
 
-h2.app-name {
+.body {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
+.new1,
+.new2 {
+    border: 5px solid #5A295B;
+    width: 25%;
+    height: 1px;
+    background-color: #5A295B;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.app-name {
     color: var(--color);
-    text-align: center;
+    /* text-align: center; */
     font-weight: 700;
-    font-size: 25;
+    font-size: 250;
+
 }
 
-div.calculator {
+.calculator {
     border: #5A295B solid 5px;
     border-radius: 20px;
-    padding: 25px;
+    padding: 20px;
     width: 378px;
-    height: 596px;
-    flex-shrink: 0;
+    height: 506px;
+    margin: 0 auto;
+
+
 }
 
 /*  */
 
 .buttons {
     width: 100%;
-    padding: var(--padding);
+
 }
-.element,.element1,.element2,.element3,.element4,.element5 {
+
+.element,
+.element1,
+.element2,
+.element3,
+.element4,
+.element5 {
     color: aliceblue;
     background-color: #9E14A0;
     border: #9E14A0 solid 2px;
+    border-radius: 5px;
+    width: 65px;
+    height: 65px;
+    /* display: flex; */
 
 }
 
 button.element2 {
-   
+
     width: 150px;
-    height: 65px;
+    height: 60px;
     border-radius: 10px;
     margin-top: 20px;
+    font-size: 36px;
 
 }
 
-button.res {
+.res {
     border: #5A295B solid 2px;
     background-color: #5A295B;
     color: aliceblue;
     width: 150px;
-    height: 65px;
+    height: 60px;
     border-radius: 10px;
+    font-size: 36px;
+
 
 }
 
-input.output {
-    padding: var(--padding);
-    margin-bottom: 10px;
+.result {
+    display: flex;
+    width: 349px;
+    height: 135px;
+    /* padding: var(--padding); */
+    margin-bottom: 5px;
     border: solid #5A295B 3px;
-    background-color: rgba(217, 217, 217, 0.31);
+    background-color: #5A295B;
+
+}
+
+.reslt-input {
+    display: flex;
+    justify-content: center;
+    background-color: #5A295B;
+    color: white;
 
 }
 
@@ -73,9 +116,9 @@ input.output {
 }
 
 .rowbuttom {
-    width: 150px;
-    height: 65px;
-    font-size: 2px;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 button {
@@ -83,7 +126,6 @@ button {
     padding: 2px;
     font-size: 18px;
     margin-bottom: 2px;
-    margin-right: 3px;
 }
 
 .num1,
@@ -103,4 +145,6 @@ button {
     color: #9E14A0;
     font-weight: bold;
     border-radius: 5px;
+    width: 65px;
+    height: 65px;
 }

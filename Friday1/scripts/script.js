@@ -31,3 +31,18 @@ const clearResult=()=>{
     userInput='';
     document.getElementById('result').value = '';
 }
+// delete funtion
+const Del=()=> {
+    userInput='';
+     document.getElementById('userInput');
+    
+    
+    userInput.value = userInput.value.slice(0, -1);
+    
+    try {
+      const result = eval(userInput.value);
+      result.value = result;
+    } catch (error) {
+      result.value = 'Error';
+    }
+  }

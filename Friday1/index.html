@@ -9,12 +9,23 @@
 </head>
 
 <body>
-    <hr class="new1">
-    <h2 class="app-name">Calculator App</h2>
-    <hr class="new2">
+    <div class="row1">
+        <hr class="new1">
+        <h2 class="app-name">Calculator App</h2>
+        <hr class="new2">
+    </div>
+
+ 
     <div class="calculator">
-        <input type="text" id="result" readonly class="output">
-        <br>
+        <!-- <div class="display">
+            <textarea id="display-input" disabled></textarea>
+            <textarea id="result-input" disabled></textarea>
+          </div> -->
+        <div class="result">
+            <input type="text" id="result" readonly class="result-input">
+      
+        </div>
+         <br>
         <div class="buttons">
 
           
@@ -23,7 +34,7 @@
                     <button onClick="appendValue(7)" class="num7">7</button>
                     <button onClick="appendValue(8)" class="num8">8</button>
                     <button onClick="appendValue(9)" class="num9">9</button>
-                    <button onClick="clearScreen" class="element">Del</button>
+                    <button onClick="Del" class="element">Del</button>
                 </div>
 
                 <div class="row">
@@ -54,8 +65,8 @@
 
             </div>
             <div class="row-buttom">
-                <button onClick="calculate()" class="element2">=</button>
                 <button onClick="clearResult()" class="res">Reset</button>
+                <button onClick="calculate()" class="element2">=</button>
             </div>
 
             
