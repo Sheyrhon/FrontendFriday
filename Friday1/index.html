@@ -1,79 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles/styles.css">
-</head>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
 
-<body>
+  <body>
     <div class="row1">
-        <hr class="new1">
-        <h2 class="app-name">Calculator App</h2>
-        <hr class="new2">
+      <hr class="new1" />
+      <h2 class="app-name">Calculator App</h2>
+      <hr class="new2" />
     </div>
 
- 
     <div class="calculator">
-        <!-- <div class="display">
-            <textarea id="display-input" disabled></textarea>
-            <textarea id="result-input" disabled></textarea>
-          </div> -->
-        <div class="result">
-            <input type="text" id="result" readonly class="result-input">
-      
+      <div class="result">
+        <input type="text" id="result" readonly class="result-input" />
+      </div>
+      <br />
+      <div class="buttons">
+        <div class="numbers">
+          <div class="row">
+            <button onClick="appendValue(7)" class="num7">7</button>
+            <button onClick="appendValue(8)" class="num8">8</button>
+            <button onClick="appendValue(9)" class="num9">9</button>
+            <button onClick="Del" class="element">Del</button>
+          </div>
+
+          <div class="row">
+            <button onClick="appendValue(4)" class="num4">4</button>
+            <button onClick="appendValue(5)" class="num5">5</button>
+            <button onClick="appendValue(6)" class="num6">6</button>
+            <button onClick="appendOperator('+')" class="element3">+</button>
+          </div>
+          <div class="row">
+            <button onClick="appendValue(1)" class="num1">1</button>
+            <button onClick="appendValue(2)" class="num2">2</button>
+            <button onClick="appendValue(3)" class="num3">3</button>
+            <button onClick="appendOperator('-')" class="element4">-</button>
+          </div>
+          <div class="row">
+            <button onClick="appendValue(0)" class="num0">0</button>
+            <button onClick="appendValue('.')" class="dot">.</button>
+            <button onClick="appendOperator('/')" class="element5">/</button>
+
+            <button onClick="appendOperator('*')" class="element1">X</button>
+          </div>
         </div>
-         <br>
-        <div class="buttons">
-
-          
-            <div class="numbers">
-                <div class="row">
-                    <button onClick="appendValue(7)" class="num7">7</button>
-                    <button onClick="appendValue(8)" class="num8">8</button>
-                    <button onClick="appendValue(9)" class="num9">9</button>
-                    <button onClick="Del" class="element">Del</button>
-                </div>
-
-                <div class="row">
-
-                    <button onClick="appendValue(4)" class="num4">4</button>
-                    <button onClick="appendValue(5)" class="num5">5</button>
-                    <button onClick="appendValue(6)" class="num6">6</button>
-                    <button onClick="appendOperator('+')" class="element3">+</button>
-
-                </div>
-                <div class="row">
-                    <button onClick="appendValue(1)" class="num1">1</button>
-                    <button onClick="appendValue(2)" class="num2">2</button>
-                    <button onClick="appendValue(3)" class="num3">3</button>
-                    <button onClick="appendOperator('-')" class="element4">-</button>
-
-                </div>
-                <div class="row">
-                    <button onClick="appendValue(0)" class="num0">0</button>
-                    <button onClick="appendValue('.')" class="dot">.</button>
-                    <button onClick="appendOperator('/')" class="element5">/</button>
-
-                    <button onClick="appendOperator('*')" class="element1">X</button>
-
-                </div>
-
-
-
-            </div>
-            <div class="row-buttom">
-                <button onClick="clearResult()" class="res">Reset</button>
-                <button onClick="calculate()" class="element2">=</button>
-            </div>
-
-            
-
+        <div class="row-buttom">
+          <button onClick="clearResult()" class="res">Reset</button>
+          <button onClick="calculate()" class="element2">=</button>
         </div>
+      </div>
     </div>
     <script src="scripts/script.js"></script>
-</body>
-
+  </body>
 </html>

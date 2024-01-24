@@ -1,56 +1,47 @@
 :root {
-    --color: #5A295B;
-    --padding: 3px;
-
-
+  --color: #5a295b;
+  --padding: 3px;
 }
 
 .body {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
 }
 
 .new1,
 .new2 {
-    border: 5px solid #5A295B;
-    width: 25%;
-    height: 1px;
-    background-color: #5A295B;
+  border: 5px solid #5a295b;
+  width: 25%;
+  height: 1px;
+  background-color: #5a295b;
 }
 
 .row1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .app-name {
-    color: var(--color);
-    /* text-align: center; */
-    font-weight: 700;
-    font-size: 250;
+  color: var(--color);
 
+  font-weight: 700;
+  font-size: 250;
 }
 
 .calculator {
-    border: #5A295B solid 5px;
-    border-radius: 20px;
-    padding: 20px;
-    width: 378px;
-    height: 506px;
-    margin: 0 auto;
-
-
+  border: #5a295b solid 5px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 378px;
+  height: 506px;
+  margin: 0 auto;
 }
 
-/*  */
-
 .buttons {
-    width: 100%;
-
+  width: 100%;
 }
 
 .element,
@@ -59,73 +50,63 @@
 .element3,
 .element4,
 .element5 {
-    color: aliceblue;
-    background-color: #9E14A0;
-    border: #9E14A0 solid 2px;
-    border-radius: 5px;
-    width: 65px;
-    height: 65px;
-    /* display: flex; */
-
+  color: aliceblue;
+  background-color: #9e14a0;
+  border: #9e14a0 solid 2px;
+  border-radius: 5px;
+  width: 65px;
+  height: 65px;
 }
 
 button.element2 {
-
-    width: 150px;
-    height: 60px;
-    border-radius: 10px;
-    margin-top: 20px;
-    font-size: 36px;
-
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 36px;
 }
 
 .res {
-    border: #5A295B solid 2px;
-    background-color: #5A295B;
-    color: aliceblue;
-    width: 150px;
-    height: 60px;
-    border-radius: 10px;
-    font-size: 36px;
-
-
+  border: #5a295b solid 2px;
+  background-color: #5a295b;
+  color: aliceblue;
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 36px;
 }
 
 .result {
-    display: flex;
-    width: 349px;
-    height: 135px;
-    /* padding: var(--padding); */
-    margin-bottom: 5px;
-    border: solid #5A295B 3px;
-    background-color: #5A295B;
-
+  display: flex;
+  width: 349px;
+  height: 135px;
+  margin-bottom: 5px;
+  border: solid #5a295b 3px;
+  background-color: #5a295b;
 }
 
 .reslt-input {
-    display: flex;
-    justify-content: center;
-    background-color: #5A295B;
-    color: white;
-
+  display: flex;
+  justify-content: center;
+  background-color: #5a295b;
+  color: white;
 }
 
 .row {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .rowbuttom {
-    flex-direction: row;
-    justify-content: space-between;
-
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 button {
-    width: 10%;
-    padding: 2px;
-    font-size: 18px;
-    margin-bottom: 2px;
+  width: 10%;
+  padding: 2px;
+  font-size: 18px;
+  margin-bottom: 2px;
 }
 
 .num1,
@@ -140,11 +121,11 @@ button {
 .num0,
 .dot,
 .element5 {
-    background-color: #F0D8F0;
-    border: #F0D8F0 solid 3px;
-    color: #9E14A0;
-    font-weight: bold;
-    border-radius: 5px;
-    width: 65px;
-    height: 65px;
+  background-color: #f0d8f0;
+  border: #f0d8f0 solid 3px;
+  color: #9e14a0;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 65px;
+  height: 65px;
 }
