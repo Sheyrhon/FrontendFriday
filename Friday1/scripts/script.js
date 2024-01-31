@@ -15,14 +15,18 @@ const appendOperator = (operator) => {
 const calculate = () => {
   try {
     const result = eval(userInput);
+
+    if (Number.isNaN(result)) {
+      throw new Error("Invalid operation");
+    }
+
     document.getElementById("result").value = result;
     userInput = "";
   } catch (error) {
-    document.getElementById("result").value = "Error";
+    document.getElementById("result").value = error.message;
     userInput = "";
   }
 };
-
 const clearResult = () => {
   userInput = "";
   document.getElementById("result").value = "";
