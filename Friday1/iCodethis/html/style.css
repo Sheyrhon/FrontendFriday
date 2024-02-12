@@ -1,0 +1,38 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+div.form{
+    background-color: rgb(115, 96, 73);
+    width: 500px;
+    height: 500px;
+    border: 5px  ;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+p.p2{
+    background-color: antiquewhite;
+    width: fit-content;
+    height: 25px;
+    align-self: center;
+
+}
+label{
+    display: flex;
+}
+input.text{
+    display: flex;
+    /* margin-right: 5px; */
+    
+}
+input::placeholder{
+    width: 100%;
+}
+div.check{
+    
+}
