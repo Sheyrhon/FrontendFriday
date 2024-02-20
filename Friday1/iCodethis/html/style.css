@@ -5,6 +5,8 @@ body{
     justify-content: center;
     color: #9398B2;
     background-color: #2D2446;
+    text-align: center;
+    font-size: 16px;
 }
 div.dark-space{
     background-color:#F4F0F5;
@@ -18,12 +20,11 @@ div.dark-space{
 div.form{
     background-color: #FFFFFF;
     width: 400px;
-    height: 70%;
+    height: 85%;
     border: 5px  ;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-    justify-content: center;
     text-align: center;
     margin-top: 45px;
     margin-bottom: 15px;
@@ -38,12 +39,6 @@ p.p2{
     
 
 }
-a{
-    text-decoration: none;
-    font-size: 15px;
-    color: #B4005C;
-}
-
 
 button{
     color: #FFFFFF;
@@ -53,6 +48,7 @@ button{
     height: 30px;
     cursor: pointer;
     border-radius: 5px;
+    justify-content: center;
 }
 h2{
     color: #9398B2;
@@ -69,35 +65,50 @@ input{
     position: relative;
     width: 90%;
     height: 40px;
-    /* margin: 20px 0; */
     border-radius: 5px;
     
 }
-label{
-display: flex;
-justify-content: space-between;
-font-size: 16px;
-font-weight: bold;
-margin-top: 8px;
+p.p3{
+    display: flex;
+   justify-content: flex-start;
+   margin-left: 15px;
+}
+p.p4{
+    justify-content: flex-start;
+    margin-right: 25px;
 }
 a{
-    position: fixed;
-    /* margin-bottom: 40px; */
+    
     text-decoration:none ;
+    text-align: center;
+    font-size: 16px;
+    color: #B4005C;
 }
 a:hover{
     text-decoration: underline;
 }
 div.check{
     display: flex;
-    margin-right: 2px;
-    font-size: medium;
     color: black;
+    justify-self: center;
+    padding: 2px;
     
 }
 input.checkbox{
-    size: 20px;
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
 }
+.acc{
+    text-align: center;
+}
+.btn.btn0{
+   display: flex;
+   justify-content: center;
+
+}
+/* invoice */
+
 .background{
     color: #2D2446;
     align-items: center;
