@@ -1,38 +1,165 @@
 body{
-    background-color: blueviolet;
+    
     display: flex;
-    padding: 30px;
+    /* padding: 10px; */
     justify-content: center;
+    color: #9398B2;
+    background-color: #2D2446;
+}
+div.dark-space{
+    background-color:#F4F0F5;
+    width:1000px;
+    height:600px ;
+    /* padding: 15px; */
+    
+    
+    
 }
 div.form{
-    background-color: rgb(115, 96, 73);
-    width: 500px;
-    height: 500px;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 70%;
     border: 5px  ;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
     justify-content: center;
     text-align: center;
+    margin-top: 45px;
+    margin-bottom: 15px;
 }
 p.p2{
-    background-color: antiquewhite;
-    width: fit-content;
-    height: 25px;
-    align-self: center;
+    background-color: #F9F5FD;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    
 
 }
-label{
-    display: flex;
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #B4005C;
 }
-input.text{
-    display: flex;
-    /* margin-right: 5px; */
+
+
+button{
+    color: #FFFFFF;
+    background-color: #B4005C;
+    border-color: #B4005C;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+h2{
+    color: #9398B2;
+}
+img{
+    border-radius: 60px ;
+    background: transparent;
+    border: #9398B2 solid 3px; 
+    width: 100px;
+    height: 100px;
+
+}
+input{
+    position: relative;
+    width: 90%;
+    height: 40px;
+    /* margin: 20px 0; */
+    border-radius: 5px;
     
 }
-input::placeholder{
-    width: 100%;
+label{
+display: flex;
+justify-content: space-between;
+font-size: 16px;
+font-weight: bold;
+margin-top: 8px;
+}
+a{
+    position: fixed;
+    /* margin-bottom: 40px; */
+    text-decoration:none ;
+}
+a:hover{
+    text-decoration: underline;
 }
 div.check{
+    display: flex;
+    margin-right: 2px;
+    font-size: medium;
+    color: black;
     
+}
+input.checkbox{
+    size: 20px;
+}
+.background{
+    color: #2D2446;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 65px;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-areas:"overlap";
+}
+.pink-shade{
+    height: 150px;
+    width: 200px;
+    background-color: #B4005C;
+    border-radius: 5px;
+    grid-area: "overlap";
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.your-plan{
+    width: 250px;
+    height: 150px;
+    background-color: #2d215ccc;
+    border-radius: 5px;
+    padding: 30px;
+    grid-area: "overlap";
+
+}
+.invoice-history{
+    width: 280px;
+    height: 250px;
+    background-color: #9398B2;
+    border-radius: 5px;
+    padding: 10px;
+    grid-area: "overlap";
+}
+.invoice-summary{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    justify-content: center;
+    margin: 5px;
+    align-self: center;
+    
+}
+.btn.btn1{
+    color: white;
+   
+    
+}
+.btn.btn2{
+    color: #9398B2;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
 }
