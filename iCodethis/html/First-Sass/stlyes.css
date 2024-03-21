@@ -1,0 +1,35 @@
+body{
+    background-color: #2D2446;
+    font-size: 16px;
+}
+div{
+    background-color: blue;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+}
+.inner-sec{
+    width: 500px;
+    height: 400px;
+    background-color: darkblue;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+}
+p{
+    color: white;
+}
+h5{
+    color: white;
+}
+.sec-1{
+    background-color: darkcyan;
+    
+}
+.sec-2{
+    color: white;
+}
+.li-4{
+    background-color: aqua;
+}
